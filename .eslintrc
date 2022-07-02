@@ -5,9 +5,18 @@
     "browser": true
   },
   "parser": "@babel/eslint-parser",
+
+  "eslint.validate": ["javascript"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "requireConfigFile": false
+  },
   "rules": {
     "no-plusplus": [0],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", "typescript"] }
+    ],
     "react/prop-types": [0],
     "react/jsx-props-no-spreading": [0],
     "import/prefer-default-export": [0],
