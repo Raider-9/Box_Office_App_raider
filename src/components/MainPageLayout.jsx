@@ -6,7 +6,8 @@ const MainPageLayout = ({ children }) => {
   return (
     <div>
       <Title
-        title="Box Office"
+        title="Film Finder"
+        subs="Made with Love By Raider 	&#128159;"
         subtitle="Are you looking for a movie or an actor?"
       />
       <Navs />
