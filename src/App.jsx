@@ -18,7 +18,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Switch>
-        <Route exact path="/Home">
+        <Route exact path="/">
           <Home />
         </Route>
 
