@@ -11,6 +11,14 @@ export const TitleWrapper = styled.div`
     margin: 0 0 10px;
   }
 
+  h4 {
+    color: ${({ theme }) => theme.mainColors.yellow};
+  }
+
+  a {
+    color: ${({ theme }) => theme.mainColors.linker};
+  }
+
   p {
     color: ${({ theme }) => theme.mainColors.dark};
     margin: 0;
